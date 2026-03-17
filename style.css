@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(file:///C:/Users/user/Downloads/666.png)
+}
+
+body{background-color:rgba(255, 255, 255, 0.7);
+    width:100%;}
+
+header{font-size:50px;
+    text-align:center;
+    margin-top:20px;
+    box-shadow:0 3px 3px black;
+    padding:20px;
+    background-color:rgba(255, 255, 255, 0.3);
+    color:black;
+}
+
+/*----------------images------------------*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 70%;
+    margin: 30px auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    box-shadow: 0 7px 7px black;
+    padding:30px;
+}
+
+.slideshow container h2{color:white;
+    margin-top: 20px;}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 74px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
