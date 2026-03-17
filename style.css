@@ -63,3 +63,88 @@ img {
 .next-btn {
     right: 0;
 }
+
+.ratings-wrapper{
+    border: thin solid white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.ratings{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+}
+
+.ratings span{
+    cursor: pointer;
+    transition: color .2s;
+    font-size: 50px;
+}
+
+.ratings span:hover{
+    color: #ffa500;
+}
+
+.ratings span:hover ~ span{
+    color: #ffa500;
+}
+
+.ratings span[data-clicked]{
+    color: #ffa500;
+}
+
+#topreviews{display:flex;
+    background-color:rgba(10,10,10,0.5);
+    padding:30px;
+}
+
+#topreviews h1{font-size:40px;
+    color:white;
+}
+
+#topreviews div{width:20%;
+    background-color:rgba(0,0,0,0.8);
+    padding:10px;
+    box-shadow:0 3px 5px grey;
+}
+
+#topreviews div img{width:250px;
+    height:300px;
+    transition:transform 2s ease;
+    animation:rotate 3s ease infinite;
+}
+
+#topreviews div p{color:white;
+}
+
+@keyframes rotate{
+    from{transform:scaleY(-1);}
+    to{transform:scaleY(1);}
+}
+
+#uploadtitle{font-size:40px;
+    margin-top:30px;
+}
+
+#content{margin-top:30px;
+}
+
+form label{font-size:25px;
+}
+
+form{background-color:rgba(255,255,0,0.4);
+    box-shadow:0 0 6px black;
+    width:60%;
+    height:200px;
+    margin-left:20%;
+    padding:50px;
+}
+
+#button{width:150px;
+    height:40px;
+    background-color:black;
+    color:white;
+    border-radius:20px;
+    margin:10px;
+}

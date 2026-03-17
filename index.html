@@ -14,23 +14,70 @@
     <div class="slide">
         <img
             src="https://i.pinimg.com/736x/f7/81/42/f781421d3e8b0760ce43a19b98ba331c.jpg">
+        <div class="ratings-wrapper">
+            <div data-productid="10" class="ratings">
+                <span data-rating="5">★</span>
+                <span data-rating="4">★</span>
+                <span data-rating="3">★</span>
+                <span data-rating="2">★</span>
+                <span data-rating="1">★</span>
+            </div>
+        </div>
     </div>
 
         <div class="slide">
         <img
             src="https://i.pinimg.com/736x/b6/9a/bb/b69abbcec289ae7f8664976a70f9a74e.jpg"
             alt="Image 2">
+        <div class="ratings-wrapper">
+            <div data-productid="10" class="ratings">
+                <span data-rating="5">★</span>
+                <span data-rating="4">★</span>
+                <span data-rating="3">★</span>
+                <span data-rating="2">★</span>
+                <span data-rating="1">★</span>
+            </div>
+        </div>
     </div>
 
     <div class="slide">
         <img
             src="https://i.pinimg.com/736x/4b/71/8f/4b718fe748acf11ec1cd192a828b0a2c.jpg"
-            alt="Image 2">
+            alt="Image 3">
+        <div class="ratings-wrapper">
+            <div data-productid="10" class="ratings">
+                <span data-rating="5">★</span>
+                <span data-rating="4">★</span>
+                <span data-rating="3">★</span>
+                <span data-rating="2">★</span>
+                <span data-rating="1">★</span>
+            </div>
+        </div>
     </div>
 </div>
 
 <button class="prev-btn">&#8249;</button>
 <button class="next-btn">&#8250;</button>
+
+<section id="topreviews">
+    <h1>Top reviews...</h1>
+    <div class="review">
+        <img src="https://i.pinimg.com/736x/54/d0/9d/54d09d76d3f082f92e93fcfeab59301f.jpg">
+        <p>There are no words to express how much I love this movie</p>
+    </div>
+</section>
+
+<h1 id="uploadtitle">Upload your review</h1>
+
+<form id="upload-form">
+    <label for="image">Choose an Image:</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+    <br>
+    <label for="content">Your review:</label>
+    <textarea id="content" name="content" rows="4" cols="50" required></textarea>
+    <br>
+    <input id="button" type="submit" value="Upload and Append">
+</form>
 
 <script src="script.js"></script>
 </body>
