@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-image: url(file:///C:/Users/user/Downloads/666.png)
+    background-image: url(./666.png)
 }
 
 body{background-color:rgba(255, 255, 255, 0.7);
@@ -35,7 +35,7 @@ body {
     margin-top: 20px;}
 
 .slide {
-    display: none;
+    display: block;
 }
 
 img {
